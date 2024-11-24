@@ -5,9 +5,15 @@ import Navbar from './Component/Navbar';
 import Services from './Component/Services';
 import Testimonials from './Component/Testimonials';
 import Working from './Component/Working';
+import{
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom"
 
 function App() {
   return (
+    <Router basename='/positivus_clone'>
     <div className="App">
      <Navbar/>
      <Header/>
@@ -16,6 +22,7 @@ function App() {
      <Testimonials/>
      <Footer/>
     </div>
+    </Router>
   );
 }
 
