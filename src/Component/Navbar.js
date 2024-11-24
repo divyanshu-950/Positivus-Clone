@@ -25,7 +25,7 @@ function Navbar() {
         <div class="collapse navbar-collapse " id="navbarSupportedContent" style={{marginLeft:w>700?'150px':''}}>
           <ul
             class="navbar-nav me-auto mb-2 mb-lg-0"
-            style={{fontSize:w>700?'25px':'16px',gap:w>700?'50px':'10px',fontWeight:'400',alignItems:w>700?'baseline':''}}
+            style={{fontSize:w>700?'20px':'16px',gap:w>700?'50px':'10px',fontWeight:'400',alignItems:w>700?'baseline':''}}
           >
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="/">
