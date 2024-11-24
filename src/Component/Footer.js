@@ -56,8 +56,8 @@ function Footer() {
                 <p className='my-3'>Address: 123 main st. moonstone city, stardust state 12345</p>
             </div>
             <div className="col-md-7 ">
-                <div  className="mx-4"style={{padding:"58px 40px",backgroundColor:"#292A32",borderRadius:'14px'}}>
-                    <input className='mx-2' type="text" placeholder='Email'style={{padding:'22px 30px', backgroundColor:'transparent',borderRadius:'14px'}} />
+                <div style={{padding:"58px 40px",backgroundColor:"#292A32",borderRadius:'14px'}}>
+                    <input className='mx-2' type="text" placeholder='Email'style={{padding:'22px 20px', backgroundColor:'transparent',borderRadius:'14px'}} />
                     <button className='m-2' style={{backgroundColor:"#B9FF66",padding:'20px 30px',borderRadius:'14px',fontSize:'20px'}}>Suscribe to News</button>
                 </div>
             </div>
