@@ -36,3 +36,53 @@
     transform: rotate(360deg);
   }
 }
+body{
+  font-family: "Space Grotesk", serif;
+  
+}
+/* Mobile */
+@media only screen and (max-width:  700px) {
+
+  .text-font{
+    font-weight: "400";
+    text-align: left;
+  }
+  .fonty{
+    font-size:40px;
+  }
+}
+/* Desktop */
+@media only screen and (min-width:  700px){
+  
+
+  .text-font{
+    font-weight: "400";
+    text-align: left;
+  }
+  .fonty{
+    font-size: 4vmax;
+  }
+}
+
+.head-font{
+  font-weight: "500";
+  text-align: left;
+  color: black;
+}
+.accordion-button.collapsed::after{
+background-image: url("./img/plus.svg");
+
+}
+.accordion-button:not(.collapsed)::after{
+  background-image: url("./img/minus.svg");
+  }
+  .accordion-button:focus{
+    box-shadow: none;
+  }
+.message{
+  background-image: url("./img/Bubble.png");
+}
+.mmessage{
+  background-image: url("./img/Union.png");
+  color: white;
+}
