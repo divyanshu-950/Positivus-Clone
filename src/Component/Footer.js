@@ -116,7 +116,7 @@ function Footer() {
             </div>
         </div>
         <hr style={{color:'white'}} />
-        <p className='my-4' style={{fontSize:'16px',color:'white',textAlign:'justify'}}>&copy; 2023 Positivus. All Rights Reserved  <a className="mx-4"href="/" style={{color:'white'}}> Privacy Policy</a></p>
+        <p className='my-4 mx-5' style={{fontSize:'16px',color:'white',textAlign:'justify'}}>&copy; 2023 Positivus. All Rights Reserved  <a className="mx-4"href="/" style={{color:'white'}}> Privacy Policy</a></p>
     </div>
 }
     </>
